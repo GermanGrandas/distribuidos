@@ -2,7 +2,7 @@ import xmlrpc.client
 import random
 
 
-s = xmlrpc.client.ServerProxy('http://localhost:8001')
+s = xmlrpc.client.ServerProxy('http://23.96.112.79:8001')
 #lista = [1,2,3,4]
 def generateList(n):
     l = []
